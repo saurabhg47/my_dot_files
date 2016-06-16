@@ -10,4 +10,8 @@ For installing PyCharm-community version:
 For installing setuptools:
   http://stackoverflow.com/questions/8650459/how-to-get-setuptools-and-easy-install
   
+For installing virtualenv and wrapper:
+  http://exponential.io/blog/2015/02/10/install-virtualenv-and-virtualenvwrapper-on-ubuntu/
+  http://virtualenvwrapper.readthedocs.io/en/latest/install.html
+  
 For installing:
