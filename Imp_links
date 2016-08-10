@@ -14,4 +14,5 @@ For installing virtualenv and wrapper:
   http://exponential.io/blog/2015/02/10/install-virtualenv-and-virtualenvwrapper-on-ubuntu/
   http://virtualenvwrapper.readthedocs.io/en/latest/install.html
   
-For installing:
+Setting up Django with Nginx, Gunicorn, virtualenv, supervisor and PostgreSQL:
+  http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/
