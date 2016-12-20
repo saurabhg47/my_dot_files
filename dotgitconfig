@@ -1,8 +1,88 @@
-[credential]
-	helper = cache --timeout=3600
 [user]
-	email = *****
-	name = *****
+    email = saurabh.gupta@hirepro.in
+	name = Saurabh Gupta
+[apply]
+    whitespace = warn
+[alias]
+    st = status
+    ci = commit
+    amd = commit --amend
+    uncommit = reset HEAD^
+    co = checkout
+    br = branch
+    pick = add -p
+    pl = pull --verbose
+    lg = log --graph --date=short --date-order
+    lt = log --graph --date=short --topo-order
+    pur = pull --rebase
+    prom = pull --rebase origin master
+    rc = rebase --continue
+    ra = rebase --abort
+    pom = push origin master
+    what = whatchanged -p
+    df = diff --color-words
+    di = diff --ignore-space-change
+    dt = difftool
+    staged = diff --cached
+    unstage = reset HEAD
+    credits = shortlog -sn --no-merges
+    changelog = log --pretty=oneline --abbrev-commit --graph
+    rlog = reflog --pretty=reflog
+    cherry = cherry-pick
+    throw = checkout -p
+    dis = checkout -p
+    goback = reset --hard
+    ignore = update-index --assume-unchanged
+    unignore = update-index --no-assume-unchanged
+[blame]
+    date=short
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    ui = always
+    pager = true
+[color "status"]
+    untracked = black
+    changed = red
+    added = green
+[format]
+#    pretty="%Cgreen%h %Cred%ar %C(yellow)%d %Creset%s %Cblue<%an> %Cred(%ad)"
+    pretty="%Cgreen%h %Cred%ar(%ad) %Cblue<%an> %C(yellow)%d %Creset%s"
+[pretty]
+    reflog="%Cgreen%h %Cred%ar(%ad) %Cblue<%an> %C(yellow)%d %Creset%s"
+[core]
+    editor = vim
+    autocrlf = input
+    pager = less -FRSX
+    whitespace = warn
+    safecrlf = warn
+    fileMode = false
+[diff]
+    mnemonicprefix = true
+    renames = copies
+    tool = meld
+[merge]
+    stat = true
+    verbosity = 1
+    summary = true
+    log = true
+    conflictstyle = diff3
+    strategy = patience
+[url "git@github.com:"]	
+    insteadOf = gh:
+[url "git@github.com:none-da/"]
+    insteadOf = none-da:
+[http]
+    sslverify = false
+[push]
+    default = simple
+[rebase]
+    stat = true
+    autoStash = true
+    missingCommitsCheck = warn
+[difftool]
+prompt = false
 [apply]
     whitespace = warn
 [color]
