@@ -1,0 +1,4 @@
+To see the mysql conf:
+  mysqld --help --verbose
+To see the file order for mysql:
+  /usr/sbin/mysqld --verbose --help | grep -A 1 "Default options"
